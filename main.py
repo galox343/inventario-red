@@ -105,3 +105,4 @@ async def eliminar(nombre: str):
         status_code=404,
         detail=f"No existe el equipo {nombre}"
     )
+
